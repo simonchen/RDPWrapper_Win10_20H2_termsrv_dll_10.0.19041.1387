@@ -9,11 +9,11 @@ then adding 'Network Service' to this folder:
 
 ![image](https://user-images.githubusercontent.com/345840/154181634-7d8dd8e3-6cf1-4659-9246-da942dd1ac82.png)
 
-### 2. Open cmd.exe as administrator, then running command as follow
+### 2. Open cmd.exe as administrator, then running command as follow to finishe the update.
 ```
 C:\Program Files\RDP Wrapper\autoupdate.bat
 ```
-This autoupdate.bat is a customized patch derived from [RdpWrapper - Autoupdater](https://github.com/asmtron/rdpwrap/blob/master/binary-download.md)
+This autoupdate.bat is derived from [RdpWrapper - Autoupdater](https://github.com/asmtron/rdpwrap/blob/master/binary-download.md)
 
 What I just changed is to just remain the one link downloading the new rdpwrap.ini for adapting termsrv.dll （10.0.19041.1387）
 ```
@@ -26,4 +26,8 @@ echo [*] check network connectivity...
 ping -n 1 baidu.com>nul
 ...
 ```
+
+### 3. Running services.msc, then find 'Remove Dekstop Service' , right click to change 'Log on as Network Service'
+
+![image](https://user-images.githubusercontent.com/345840/154183478-fda2fd45-3897-40cc-b153-08145ed586d4.png)
 
