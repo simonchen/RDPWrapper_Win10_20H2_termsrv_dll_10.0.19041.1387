@@ -1,2 +1,5 @@
 # RDPWrapper_Win10_20H2_termsrv_dll_10.0.19041.1387
-RDPWrapper_Win10_20H2_termsrv_dll_10.0.19041.1387
+RDPWrapper_Win10_20H2_termsrv_dll_10.0.19041.1387.zip
+
+I've successfully patched Windows Remote Desktop on Windows Home version (20H2)
+The attached zip file is the customized RdpWrapper[url:https://github.com/stascorp/rdpwrap]
