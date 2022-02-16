@@ -9,7 +9,7 @@ then adding 'Network Service' to this folder:
 
 ![image](https://user-images.githubusercontent.com/345840/154181634-7d8dd8e3-6cf1-4659-9246-da942dd1ac82.png)
 
-### 2. Open cmd.exe as administrator, then running command as follow to finish the update.
+### 2. Open cmd.exe as administrator, then running command as follow to finish the update for rdpwrap.ini
 ```
 C:\Program Files\RDP Wrapper\autoupdate.bat
 ```
