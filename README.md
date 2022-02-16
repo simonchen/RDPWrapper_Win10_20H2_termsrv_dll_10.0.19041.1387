@@ -11,11 +11,22 @@ then adding 'Network Service' to this folder:
 
 ![image](https://user-images.githubusercontent.com/345840/154181634-7d8dd8e3-6cf1-4659-9246-da942dd1ac82.png)
 
-2. Open cmd.exe as administrator
-Running command
+4. Open cmd.exe as administrator, then running command as follow
 ```
 C:\Program Files\RDP Wrapper\autoupdate.bat
 ```
+This autoupdate.bat is a customized patch derived from [RdpWrapper - Autoupdater](https://github.com/asmtron/rdpwrap/blob/master/binary-download.md)
 
+What I just changed is (see bold text below)
 
+```
+...
+set rdpwrap_ini_update_github_1="https://raw.githubusercontent.com/affinityv/INI-RDPWRAP/master/rdpwrap.ini"
+...
+echo [*] check network connectivity...
+:netcheck
+...
+*ping -n 1 baidu.com>nul
+...
+```
 
