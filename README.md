@@ -1,4 +1,5 @@
-### I've successfully patched Windows Remote Desktop on Windows Home version (20H2) and this patch is specially for Windows 10 (version 20H2) and who uses termsrv.dll that version is 10.0.19041 (at c:\windows\system32)
+### I've successfully patched Windows Remote Desktop on Windows Home version (20H2) and this patch is specially for Windows 10 (version 20H2) and who uses termsrv.dll that version is 10.0.19041.1387 (at c:\windows\system32) , but I believe that this customized patch will be working for other version of termsrv.dll
+
 # [RDPWrapper_Win10_20H2_termsrv_dll_10.0.19041.1387.zip](https://github.com/simonchen/RDPWrapper_Win10_20H2_termsrv_dll_10.0.19041.1387/raw/main/RDPWrapper_Win10_20H2_termsrv_dll_10.0.19041.1387.zip)
 
 The attached zip file is a customized patch derived from [RdpWrapper](https://github.com/stascorp/rdpwrap)
