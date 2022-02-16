@@ -38,3 +38,6 @@ Now, you open Rdpconf.exe in C:\Program Files\RDP Wrapper\ , you will see everyt
 
 ![image](https://user-images.githubusercontent.com/345840/154184049-8e9ecffe-a267-4ddd-b7bb-18263c03cabe.png)
 
+
+## Reference
+https://windowsreport.com/remote-connection-was-denied-windows-10/#:~:text=Press%20Windows%20Key%20%2B%20R%20and%20enter%20services.&text=Press%20Enter%20or%20OK.,and%20OK%20to%20save%20changes.
