@@ -4,12 +4,12 @@
 The attached zip file is a customized patch derived from [RdpWrapper](https://github.com/stascorp/rdpwrap)
 
 ## How to install the customized RdpWrapper
-# 1. It's very simple! you just extract the all files to C:\Program Files\RDP Wrapper\ (if no existing, just manually create it)
+### 1. It's very simple! you just extract the all files to C:\Program Files\RDP Wrapper\ (if no existing, just manually create it)
 then adding 'Network Service' to this folder:
 
 ![image](https://user-images.githubusercontent.com/345840/154181634-7d8dd8e3-6cf1-4659-9246-da942dd1ac82.png)
 
-# 2. Open cmd.exe as administrator, then running command as follow
+### 2. Open cmd.exe as administrator, then running command as follow
 ```
 C:\Program Files\RDP Wrapper\autoupdate.bat
 ```
