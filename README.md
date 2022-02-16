@@ -18,14 +18,14 @@ C:\Program Files\RDP Wrapper\autoupdate.bat
 This autoupdate.bat is a customized patch derived from [RdpWrapper - Autoupdater](https://github.com/asmtron/rdpwrap/blob/master/binary-download.md)
 
 What I just changed is (see bold text below)
-
+```
 ...
-** set rdpwrap_ini_update_github_1="https://raw.githubusercontent.com/affinityv/INI-RDPWRAP/master/rdpwrap.ini" **
+**set rdpwrap_ini_update_github_1="https://raw.githubusercontent.com/affinityv/INI-RDPWRAP/master/rdpwrap.ini"**
 ...
 echo [*] check network connectivity...
 :netcheck
 ...
-** ping -n 1 baidu.com>nul **
+**ping -n 1 baidu.com>nul**
 ...
-
+```
 
