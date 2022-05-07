@@ -28,7 +28,7 @@ ping -n 1 baidu.com>nul
 ...
 ```
 
-### 3. Press WinKey + R, Then running services.msc , furthermore, then find 'Remove Dekstop Services' , right click to change 'Log on as Network Service'
+### 3. Press WinKey + R, Then running services.msc , furthermore, then find 'Remote Dekstop Services' , right click to change 'Log on as Network Service'
 
 ![image](https://user-images.githubusercontent.com/345840/154183478-fda2fd45-3897-40cc-b153-08145ed586d4.png)
 
